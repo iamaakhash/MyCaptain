@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int food=0;
+	printf(" Enter a random number from 1 to 5\n I'll surprise you with a food item and it's price : ");	scanf("%d",&food);
+	switch(food)	
+	{
+	
+    	case 1:
+			printf(" You've got Burger and\n it's price is Rs.129");
+			break;
+	 	case 2:
+			printf(" You've got French Fries and\n it's price is Rs.99");
+			break;
+	 	case 3:
+			printf(" You've got Pizza and\n it's price is Rs.239");
+			break;
+		case 4:
+			printf(" You've got Sanswich and\n it's price is Rs.149");
+			break;
+	 	case 5:
+			printf(" You've got Pasta and\n it's price is Rs.179");
+			break;
+	 	default:
+			printf("Blimey! You've entered an invalid number\n You've got no food");
+}
+		
+		
+}
